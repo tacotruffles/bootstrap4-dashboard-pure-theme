@@ -551,9 +551,9 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-               <div class="row">
-                  <div class="col-xl-7">
-                     <h4 class="text-muted mb-4">Recent Customer Activity</h4>
+               <div class="row align-items-center mb-5">
+                  <div class="col-xl-7 mb-4">
+                     <h4 class="text-muted">Recent Customer Activity</h4>
                      <div id="accordion">
                         <div class="card">
                            <div class="card-header">
@@ -635,8 +635,56 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-5">
-
+                  <div class="col-xl-5 mt-4">
+                     <div class="card rounded">
+                        <div class="card-body">
+                           <h5 class="text-muted text-center">Quick Status Post</h5>
+                           <ul class="list-inline text-center py-3">
+                              <li class="list-inline-item mr-4">
+                                 <a href="#">
+                                    <i class="fas fa-pencil-alt text-success"></i>
+                                 </a>
+                                 <span class="h6 text-muted">Status</span>
+                              </li>
+                              <li class="list-inline-item mr-4">
+                                 <a href="#">
+                                    <i class="fas fa-camera text-info"></i>
+                                 </a>
+                                 <span class="h6 text-muted">Photo</span>
+                              </li>
+                              <li class="list-inline-item">
+                                 <a href="#">
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                 </a>
+                                 <span class="h6 text-muted">Check-in</span>
+                              </li>
+                           </ul>
+                           <form>
+                              <div class="form-group">
+                                 <input type="text" class="form-control py-2 mb-3" placeholder="What's your status?">
+                              </div>
+                              <button type="button" class="btn btn-block text-uppercase font-weight-bold text-light bg-info py-2 mb-5 form-control">Submit Post</button>
+                           </form>
+                           <div class="row">
+                              <div class="col-6">
+                                 <div class="card bg-light">
+                                    <i class="far fa-calendar-alt fa-8x text-warning d-block m-auto py-3"></i>
+                                    <div class="card-body">
+                                       <p class="card-text text-center font-weight-bold text-uppercase">Mon, May 30</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="card bg-light">
+                                    <i class="far fa-clock fa-8x text-danger d-block m-auto py-3"></i>
+                                    <div class="card-body">
+                                       <p class="card-text text-center font-weight-bold text-uppercase">3:50 AM</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -644,6 +692,12 @@
       </div>
    </section>
    <!-- end activities / quick post -->
+
+   <!-- footer -->
+   <footer>
+
+   </footer>
+   <!-- end footer -->
 
    <!-- modal -->
    <div id="logoutModal" class="modal fade">
